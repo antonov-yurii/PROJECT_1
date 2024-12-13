@@ -11,7 +11,7 @@ document.getElementById("operation_result").onclick = function () {
             } else if (document.getElementById("mult").checked) {
                 c = a * b;
             } else {
-                с = "Операцію не було обрано";
+                СЃ = "РћРїРµСЂР°С†С–СЋ РЅРµ Р±СѓР»Рѕ РѕР±СЂР°РЅРѕ";
             }
-          document.getElementById("result").textContent = `Відповідь: ${c}`
+          document.getElementById("result").textContent = `Р’С–РґРїРѕРІС–РґСЊ: ${c}`
 }
